@@ -1,0 +1,559 @@
+body {
+    background-color: bisque;
+}
+
+h1 {
+    color: saddlebrown;
+    font-family: 'Helvetica';
+    position: absolute;
+    top: 10px;
+    left: 30px;
+}
+
+a:link{
+    text-decoration: none!important;
+  }
+
+a {
+    color: saddlebrown;
+  }
+
+
+h2{
+    color: saddlebrown;
+    font-family: 'Cambria';
+    font-size: 75px;
+    position:relative;
+    top: 125px;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    margin: 50px;
+    position: relative;
+    top: 20%;
+  }
+  .container div {
+    aspect-ratio: 1;
+  }
+
+#i1{
+    background-image: url("../images/winkybrown.png");
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    transition: background-image 0.05s ease-in-out;
+}
+
+
+#i1:hover {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/winky.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+
+}
+
+#i2{
+    background-image: url("../images/ancientpigeonbrown.png");
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: background-image 0.05s ease-in-out;
+}
+
+#i2:hover {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/ancientpigeon.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+#i3{
+    background-image: url("../images/arabiantrumpeterbrown.png");
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+
+#i3:hover {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/arabiantrumpeter.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+#i4{
+    background-image: url("../images/archangelbrown.png");
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+
+#i4:hover {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/archangel.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+#i5{
+    background-image: url("../images/Lahorebrown.png");
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+
+#i5:hover {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/Lahore\(black\).jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+#i6{
+    background-image: url("../images/americanfantailbrown.png");
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+
+#i6:hover {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/americanfantail.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+#i7{
+    background-image: url("../images/indianfantailbrown.png");
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+
+#i7:hover {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/indianfantail.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+#i8{
+    background-image: url("../images/baldheadshowrollerbrown.png");
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+
+#i8:hover {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/baldheadshowroller.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+#i9{
+    background-image: url("../images/bernelarkbrown.png");
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+
+#i9:hover {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/bernelark.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+#i10{
+    background-image: url("../images/Brunner_pouterbrown.png");
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+
+#i10:hover {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/Brunner_pouter.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+#i11{
+    background-image: url("../images/chineseowlchampionbrown.png");
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+
+#i11:hover {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/chineseowlchampion.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+#i12{
+    background-image: url("../images/danishjacobinbrown.png");
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+
+#i12:hover {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/danishjacobin.webp);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+#i13{
+    background-image: url("../images/danzighighflyerbrown.png");
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+
+#i13:hover {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/danzighighflyer.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+#i14{
+    background-image: url("../images/frillbackpigeonbrown.png");
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+
+#i14:hover {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/frillbackpigeon.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+#i15{
+    background-image: url("../images/germanbeautyhomerbrown.png");
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+
+#i15:hover {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/germanbeautyhomer.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+#i16{
+    background-image: url("../images/jacobinbrown.png");
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+
+#i16:hover {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/jacobin.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+#i17{
+    background-image: url("../images/magpiepigeonbrown.png");
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+
+#i17:hover {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/magpiepigeon.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+#i18{
+    background-image: url("../images/mookee2brown.png");
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+
+#i18:hover {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/mookee.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+#i19{
+    background-image: url("../images/nunpigeonbrown.png");
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+
+#i19:hover {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/nunpigeon.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+#i20{
+    background-image: url("../images/oldgermancropperbrown.png");
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+
+#i20:hover {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/oldgermancropper.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+#i21{
+    background-image: url("../images/racinghomerbrown.png");
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+
+#i21:hover {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/racinghomer.webp);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+
+#i22{
+    background-image: url("../images/showracerbrown.png");
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+
+#i22:hover {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/showracer.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+
+#i23{
+    background-image: url("../images/showrollerbrown.png");
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+
+#i23:hover {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/showroller.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+
+#i24{
+    background-image: url("../images/showtipplerbrown.png");
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+
+#i24:hover {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/showtippler.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+
+#i25{
+    background-image: url("../images/syrianbagdadbrown.png");
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+
+#i25:hover {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/syrianbagdad.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+
+#i26{
+    background-image: url("../images/rafenobrown.png");
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+
+#i26:hover {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/rafeno.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+
+#i27{
+    background-image: url("../images/nuremberglarkbrown.png");
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+
+#i27:hover {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/nuremberglark.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+#i28{
+    background-image: url("../images/olddutchcapuchinebrown.png");
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+
+#i28:hover {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/olddutchcapuchine.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.reveal {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    font-family: Cambria;
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    align-content: center;
+}
+
+.reveal:hover{
+    font-size: 0px;
+}
+
+.reveal:hover:after{
+    content: attr(data-hover);
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-align: center center;
+    align-content: center;
+}
+
+.bottommargin{
+    width: 100%;
+    height: 150px;
+    background-color: bisque;
+    position: relative;
+    top: 100px;
+}

@@ -1,0 +1,75 @@
+body {
+    background-color: bisque;
+}
+
+h1 {
+    color: saddlebrown;
+    font-family: 'Helvetica';
+    position: absolute;
+    top: 10px;
+    left: 30px;
+}
+
+a:link{
+    text-decoration: none!important;
+  }
+
+a {
+    color: saddlebrown;
+  }
+
+  #main-nav {
+	position: relative;
+    top: 25%;
+}
+
+#main-nav > ul > li {
+	width: 12.5%;
+	float: left;
+	text-align: center;
+	line-height: .9em;
+	font-weight: bold;
+    color: bisque;
+	background: #8B4513;
+}
+
+#main-nav > ul > li > a {
+	display: block;
+	color: saddlebrown;
+	line-height: 12px;
+	font-size: 14px;
+	padding: 22px 0;
+	text-decoration: none;
+}
+
+.nav-dropdown {
+    margin: -5px auto;  
+    position: absolute;
+    height:0px;
+    left:-999em; /* Hides the drop down */  
+    text-align:left;  
+    padding: 0;  
+    border-top: 0;
+    width: 500px;
+    background:#b58b68;
+    color: #f2f2f2;
+    border-bottom: 10px solid #b58b68;
+    -webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+    -webkit-transition: height 0.5s ease-in;
+    -moz-transition: height 0.5s ease-in;
+    -o-transition: height 0.5s ease-in;
+    -ms-transition: height 0.5s ease-in;
+     transition: height 0.5s ease-in;
+}
+
+#main-nav li:hover .nav-dropdown {
+    left: 0;
+    top: auto;
+    z-index: 11; 
+    height:200px;
+}

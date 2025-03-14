@@ -1,0 +1,144 @@
+body {
+    background-color: bisque;
+}
+
+h1 {
+    color: saddlebrown;
+    font-family: 'Helvetica';
+    position: absolute;
+    top: 10px;
+    left: 30px;
+}
+
+a:link{
+    text-decoration: none!important;
+  }
+
+a {
+    color: saddlebrown;
+  }
+
+#subheading-1{
+    color: saddlebrown;
+    font-family: Cambria;
+    font-size: 120px;
+}
+
+#container{
+    text-align: center;
+    position: relative;
+    top: 200px
+}
+
+.par-group-1{
+    color: saddlebrown;
+    font-size: 25;
+    font-family: Helvetica;
+    position: relative;
+    top: 370px;
+    text-align: center;
+}
+
+
+.box_item {
+    width: 100%;
+    height: 100px;
+    position: relative;
+    top: 420px;
+    text-align: center;
+    font-family: Cambria;
+    font-size: 50px;
+    font-weight: bold;
+    color: saddlebrown;
+
+
+}
+
+.box_item:hover{
+    font-size: 0px;
+}
+
+.box_item:hover:after{
+    content: attr(data-hover);
+    font-size: 50px;
+    color: saddlebrown;
+    text-align: center;
+}
+
+#box{
+    width: 100%;
+    height: 1000px;
+    background-color: saddlebrown;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-position: center;
+    position: relative;
+    top: 570px;
+    left: -10px;
+}
+
+#container-small{
+    width: 610px;
+    height: 500px;
+    text-align: center;
+    background-position: center;
+    position: relative;
+    top: 120px;
+}
+
+.center{
+    margin: auto; 
+    width: 50%;
+}
+
+.par-group-2{
+    color:bisque;
+    position: relative;
+    font-family: Helvetica;
+    font-size: 25px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.par-group-3{
+    color:bisque;
+    position: relative;
+    top: 30px;
+    font-family: Helvetica;
+    font-size: 25px;
+    text-align: center;
+}
+
+.resize{
+    width: 320px;
+    height: auto;
+    position: relative;
+    top: 20px;
+}
+
+#nav{
+    width: 100%;
+    height: auto;
+}
+
+button{
+    padding: 20px;
+    border-radius: 40px;
+    border: 5px bisque solid;
+    background-color: saddlebrown;
+    color: bisque;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    position:relative;
+    top: 50px;
+    z-index: 4;
+    align-self:  center center;
+    
+}
+
+button:hover{
+    background-color: rgb(165, 90, 37);
+    align-self: center;
+}

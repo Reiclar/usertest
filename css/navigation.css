@@ -1,0 +1,47 @@
+body {
+  background-color: bisque;
+}
+
+img {
+
+    width: 102%;
+    margin-top: -10px;
+    margin-left: -10px;
+    position: absolute;
+  }
+
+.resize-history{
+    width: 320px;
+    height: auto;
+    z-index: 1;
+    position: relative;
+    top: 220px;
+    left: 68%;
+
+}
+
+.resize-breeds{
+  width: 320px;
+  height: auto;
+  z-index: 1;
+  position: relative;
+  top: 150px;
+  left: 170px;
+}
+
+.resize-facts{
+  width: 320px;
+  height: auto;
+  z-index: 1;
+  top: 890px;
+  left: 58%;
+}
+
+.resize-care{
+  width: 280px;
+  height: auto;
+  z-index: 1;
+  position: relative;
+  top: 200px;
+  left: 320px;
+}

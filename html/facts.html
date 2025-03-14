@@ -1,0 +1,122 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PiDGN</title>
+    <link rel="stylesheet" href="../css/facts.css">
+</head>
+<body>
+    
+    <img src="../images/factsbg.png" alt="">
+
+    <p><a id="doc-link" href="../index.html"> 
+        <h1> PiDGN </h1>
+        </a></p>
+
+
+        <div id="filler"></div>
+
+        <div id="container">
+
+         <div id="one">  <!-- <img src="../images/bisque.png"> -->
+            <div id="title"> Fascinating Fact!</div>
+            <div id="text"> There are between 260-400 million pigeons worldwide, and most are feral birds.</div>
+        </div>
+
+          <div id="two"> <!-- <img src="../images/bisque.png"> -->
+            <div id="title-2"> Fascinating Fact!</div>
+            <div id="text-2">Many feral pigeons have the same plumage pattern as wild rock doves, so hybridization isn’t just a visual tell. Only DNA analysis can determine how much hybridization has occurred in a population, and many remain under-studied.</div>
+        </div>
+
+          <div id="three"> <!-- <img src="../images/bisque.png"> -->
+            <div id="title-3"> Fascinating Fact!</div>
+            <div id="text-3"> The purest rock dove populations are likely to be on offshore islands in Europe and the Mediterranean, where its geographic barriers reduce hybridization.</div>
+        </div>
+
+        <div id="four"> <!-- <img src="../images/bisque.png"> -->
+          <div id="title-4"> Fascinating Fact!</div>
+          <div id="text-4"> The most expensive pigeon sold in existence cost almost $1,900,000!</div>
+        </div>
+
+        <div id="five"> <!-- <img src="../images/bisque.png"> -->
+          <div id="title-5"> Fascinating Fact!</div>
+          <div id="text-5"> While pigeons are believed to be dirty birds, they are actually quite clean. The risk of contracting a disease from one is quite low, and their personal hygiene is a priority. Pigeons spend most of their day grooming themselves, or otherwise find water to bathe in.</div>
+        </div>
+
+        <div id="six"> <!-- <img src="../images/bisque.png"> -->
+          <div id="title-6"> Fascinating Fact!</div>
+          <div id="text-6"> Pigeons can recognize mirror reflections.</div>
+        </div>
+
+        <div id="seven"> <!-- <img src="../images/bisque.png"> -->
+          <div id="title-7"> Fascinating Fact!</div>
+          <div id="text-7"> Pigeons have amazing navigational skills and can return to their homes from up to 2092km away, even when transported to an area that they have never seen before. Scientists believe that they have a compass and map system. The compass is thought to be determined by the sun, while the source of their mapping skills is still unknown; a pleasant mystery..</div>
+        </div>
+
+        <div id="eight"> <!-- <img src="../images/bisque.png"> -->
+          <div id="title-8"> Fascinating Fact!</div>
+          <div id="text-8"> A pigeon named Cher Ami was used by the U.S. Army Signal Corps in France during WWII. She delivered a very important message from the American “Lost Battalion” encircled by German troops during in October 1918, though was shot in flight by enemy troops and was severely wounded. She was awarded the Croix de Guerre medal with a palm Oak Leaf Cluster.</div>
+        </div>
+
+        <div id="nine"> <!-- <img src="../images/bisque.png"> -->
+          <div id="title-9"> Fascinating Fact!</div>
+          <div id="text-9"> Pigeons are incredibly efficient in multitasking, even better than humans!</div>
+        </div>
+
+
+        </div>
+      
+        <script>
+          window.addEventListener('scroll', function() {
+            let num = window.scrollY / window.innerHeight;
+            let x = 0;
+      
+            document.getElementById('filler').style.display = 'none';
+      
+            if(num <= 1) {
+              document.getElementById('one').style.opacity = 1-num;
+              x = (1-num)*2;
+             /* document.getElementById('one').style.transform = 'translate3d('+x+'%,'+x+'%,0px) scale(1,1) rotate(-3deg)';*/
+            } else if(num > 1 && num <= 2) {
+              document.getElementById('two').style.opacity = 2-num;
+              x = (2-num)*2;
+              /*document.getElementById('two').style.transform = 'translate3d('+x+'%,-'+x+'%,0px) scale(1,1) rotate(5deg)';*/
+            } else if(num > 2 && num <= 3) {
+              document.getElementById('three').style.opacity = 3-num;
+              x = (3-num)*2;
+             /* document.getElementById('three').style.transform = 'translate3d('+x+'%,'+x+'%,0px) scale(1,1) rotate(-15deg)';*/
+            } else if(num > 3 && num <= 4) {
+              document.getElementById('four').style.opacity = 4-num;
+              x = (4-num)*2;
+            /* document.getElementById('four').style.transform = 'translate3d('+x+'%,'+x+'%,0px) scale(1,1) rotate(0deg)';*/
+            } else if(num > 4 && num <= 5) {
+              document.getElementById('five').style.opacity = 5-num;
+              x = (5-num)*2;
+
+            } else if(num > 5 && num <= 6) {
+              document.getElementById('five').style.opacity = 6-num;
+              x = (6-num)*2;
+            
+            } else if(num > 6 && num <= 7) {
+              document.getElementById('seven').style.opacity = 7-num;
+              x = (7-num)*2;
+            
+            } else if(num > 7 && num <= 8) {
+              document.getElementById('eight').style.opacity = 8-num;
+              x = (8-num)*2;
+            
+            } else if(num > 8 && num <= 9) {
+              document.getElementById('nine').style.opacity = 9-num;
+              x = (9-num)*2;
+
+            } else {
+              document.getElementById('filler').style.display = 'block';
+            }
+          })
+        </script>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src="../javascript/js.js"></script>
+
+</body>
+</html>
